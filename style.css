@@ -1,0 +1,33 @@
+#nome {
+    border-radius: 5px;
+    border: dashed 3px rgb(240, 145, 145);
+}
+
+
+#footer {
+    border-radius: 5px;
+    background-color: rgb(201, 139, 243);
+}
+
+p{
+    border-radius: 5px;
+    background-color: rgb(246, 189, 248);
+
+}
+
+.direita {
+    display: grid;
+    grid-template: 200px 500px 200px / 1fr 3fr;
+    grid-template-areas:
+      "cabecalho cabecalho cabecalho"
+      "menu-lateral principal principal"
+      "rodape rodape rodape";
+}
+
+#primeira{
+    border: red solid ;
+}
+
+#segunda{
+    border: blue solid;
+}
